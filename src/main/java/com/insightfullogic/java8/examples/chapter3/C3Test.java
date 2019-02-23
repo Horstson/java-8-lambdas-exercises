@@ -73,6 +73,6 @@ public class C3Test {
 	}
 	
 	public static void countLowwerChar(String orgin) {
-		Stream.of(orgin.toCharArray()).forEach(System.out::println);
+		Stream.of(orgin.toCharArray()).forEach(System .out::println);
 	}
 }
