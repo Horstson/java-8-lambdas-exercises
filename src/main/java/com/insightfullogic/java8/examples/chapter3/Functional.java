@@ -2,7 +2,6 @@ package com.insightfullogic.java8.examples.chapter3;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class Functional {
 
@@ -12,13 +11,7 @@ public class Functional {
     private ActionEvent lastEvent;
 
     private void registerHandler() {
-        button.addActionListener(new ActionListener() {
-			
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				
-			}
-		});
+        button.addActionListener(e -> {});
     }
     // END field_assignment
 
